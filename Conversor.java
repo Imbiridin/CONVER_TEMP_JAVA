@@ -13,12 +13,20 @@ class Conversor {
         return (fahrenheit - 32) * 5 / 9 + 273.15;
     }
 
-    public double getCelsius() {
-        return celsius;
+    public double getCelsiusFahrenheit() {
+        return (celsius * 1.8) + 32;
     }
 
-    public double getKelvin() {
-        return kelvin;
+    public double getCelsiusKelvin() {
+        return celsius + 273.15;
+    }
+
+    public double getKelvinCelsius() {
+        return kelvin - 273.15;
+    }
+
+    public double getKelvinFahrenheit(){
+        return (kelvin - 273.15) * 1.8 + 32;
     }
 
     public void setFahrenheit(double fahrenheit) {

@@ -1,7 +1,7 @@
 
 import javax.swing.JOptionPane;
 
-class Temperatura {
+class TemperaturaMain {
 
     public static void main(String[] args) {
         Conversor cv = new Conversor();

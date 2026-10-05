@@ -8,7 +8,7 @@ class TemperaturaMain {
 
         JOptionPane.showMessageDialog(null, "CONVERSOR DE TEMPERATURA \n");
 
-        String opcaoT = JOptionPane.showInputDialog("Digite Fahrenheit[F], Celsius[C], Kelvin[K]").toLowerCase();
+        String opcaoT = JOptionPane.showInputDialog("Fahrenheit[F] | Celsius[C] | Kelvin[K]").toLowerCase();
 
         switch (opcaoT) {
             case "f":
